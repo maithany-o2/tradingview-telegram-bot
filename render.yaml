@@ -1,0 +1,12 @@
+
+services:
+  - type: web
+    name: telegram-webhook-bot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 7909672463:AAFEIjKb_ccQRgEDf3ZP0AZ7AUzL0vpFkMQ
+      - key: CHAT_ID
+        value: 123456789
