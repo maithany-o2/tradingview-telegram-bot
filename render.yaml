@@ -9,4 +9,4 @@ services:
       - key: TELEGRAM_TOKEN
         value: 7909672463:AAFEIjKb_ccQRgEDf3ZP0AZ7AUzL0vpFkMQ
       - key: CHAT_ID
-        value: 123456789
+        value: 2017226142
